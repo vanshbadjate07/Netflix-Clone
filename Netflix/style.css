@@ -1,0 +1,362 @@
+body{
+    background-color: black;
+}
+.bg{
+    height: 650px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("images/header-image.png");
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 155px;
+    width: 9.25rem;
+    height: 2.5rem;
+    display: inline;
+}
+.sign-in{
+    background-color: #e50914;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 7px 16px;
+    border-radius: 6.5px;
+    position: absolute;
+    top:30px;
+    right:120px;
+    cursor: pointer;
+    border: none;
+}
+.sign-in:hover{
+    background-color: #d9444c;
+}
+.lan{
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 30px;
+    right:220px;
+    padding: 6px 36px;    
+    min-width: auto;
+    width:auto;
+    border-radius: 6.5px;
+    font-size: 15px;
+}
+.lan:active{
+    border: 1px solid white;
+}
+.headline{
+    display: inline;
+    text-align: center;
+    justify-self: center;
+    position: absolute;
+    top: 200px;
+    left: 380px;
+}
+.headline h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.headline h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+
+}
+.headline p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.sign-up input{
+    /* padding: 24px 16px 8px; */
+    background-color: transparent;
+    color: transparent;
+    border:1px solid rgba(59, 43, 43, 0.8);
+    padding: 1.5rem 1rem 0.5rem;
+    width: 320px;
+    text-align: top;
+    color: white;
+    font-size: 15px;
+}
+.get-started{
+    background-color: #e50914;
+    margin-left: 5px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 0.3rem;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: none;
+}
+.hr1{
+    height: 7px;
+    background-color: #242222;
+    width: 100%;
+}
+.features{
+    display: flex;
+}
+.features1{
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+.features1 h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.features1 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.features1-img{
+    display:inline-block;
+    position:relative;
+    right: 0px;
+    margin-top:10px ;
+    margin-left: 200px;
+}
+.hr2{
+    height: 7px;
+    background-color: #242222;
+    width: 100%;
+}
+.features2{
+    position: relative;
+    top: 150px;
+    left:850px;
+}
+.features2 h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.features2 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.features2-img{
+    display:inline;
+    position:absolute;
+    right: 0px;
+    margin-top:80px ;
+    margin-right: 1000px;
+}
+.hr3{
+    position: absolute;
+    top:1885px;
+    height: 7px;
+    background-color: #242222;
+    width: 100%;
+}
+.features3{
+    position: absolute;
+    top: 2090px;
+    left: 250px;
+}
+.features3 h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.features3 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.features3-img{
+    display:inline-block;
+    position:relative;
+    right: 0px;
+    margin-top:400px ;
+    margin-left: 850px;
+}
+.hr4{
+    height: 7px;
+    background-color: #242222;
+    width: 100%;
+}
+.features4{
+    position: relative;
+    top: 150px;
+    left:850px;
+}
+.features4 h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.features4 p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.features4-img{
+    display:inline;
+    position:absolute;
+    right: 0px;
+    margin-top:80px ;
+    margin-right: 1000px;
+}
+.hr5{
+    height: 7px;
+    background-color: #242222;
+    width: 100%;
+    position: relative;
+    top:400px;
+}
+.features5 h2{
+    position:absolute;
+    top: 3280px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    left: 500px;
+}
+.block1{
+    position: absolute;
+    font-size: 24px;
+    top: 3400px;
+    left: 245px;
+    font-style: 24px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #2d2d2d;
+    width: 1250px;
+    height: 90px;
+    text-align: left;
+    padding-left: 30px;
+}
+.block2{
+    position: absolute;
+    font-size: 24px;
+    top: 3500px;
+    left: 245px;
+    font-style: 24px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #2d2d2d;
+    width: 1250px;
+    height: 90px;
+    text-align: left;
+    padding-left: 30px;
+}
+.block3{
+    position: absolute;
+    font-size: 24px;
+    top: 3600px;
+    left: 245px;
+    font-style: 24px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #2d2d2d;
+    width: 1250px;
+    height: 90px;
+    text-align: left;
+    padding-left: 30px;
+}
+.block4{
+    position: absolute;
+    font-size: 24px;
+    top: 3700px;
+    left: 245px;
+    font-style: 24px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #2d2d2d;
+    width: 1250px;
+    height: 90px;
+    text-align: left;
+    padding-left: 30px;
+}
+.block5{
+    position: absolute;
+    font-size: 24px;
+    top: 3800px;
+    left: 245px;
+    font-style: 24px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #2d2d2d;
+    width: 1250px;
+    height: 90px;
+    text-align: left;
+    padding-left: 30px;
+}
+.block6{
+    position: absolute;
+    font-size: 24px;
+    top: 3900px;
+    left: 245px;
+    font-style: 24px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #2d2d2d;
+    width: 1250px;
+    height: 90px;
+    text-align: left;
+    padding-left: 30px;
+}
+.features5 h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 4000px;
+    left: 545px;
+    font-weight: 400;
+}
+.signup2 input {
+    background-color: transparent;
+    color: transparent;
+    border:1px solid rgba(59, 43, 43, 0.8);
+    padding: 1.5rem 1rem 0.5rem;
+    width: 320px;
+    text-align: top;
+    color: white;
+    font-size: 15px;
+}
+.get-started2{
+    background-color: #e50914;
+    margin-left: 5px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 0.3rem;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: none;
+}
+.signup2{
+    position: absolute;
+    top: 4060px;
+    left: 570px;
+}
+.hr6{
+    height: 7px;
+    background-color: #242222;
+    width: 100%;
+    position: relative;
+    top:1370px;
+}
+.features5 button:hover{
+    cursor: pointer;
+}
